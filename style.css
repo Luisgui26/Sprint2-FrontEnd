@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Bitter', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif; 
+    background-image: linear-gradient(to right ,#131086, #b621f3);
+}
+
+header{
+    display: flex;
+    color: aliceblue;
+    
+}
+
+img{
+    width: 10%;
+}
+
+.nome{
+    margin-left: 5%;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.opcoes{
+    display: flex;
+    background-color: aliceblue;
+    margin-top: 5%;
+    margin-left: 1%;
+    font-size: 37px;
+    border-radius: 90px;
+    width: 69%;
+}
+
+.menu{
+    text-decoration: none;
+    margin-left: 9%;
+    color: #7921f3;
+}
+
+.menu:hover{
+    transition: 0.3s;
+    color: rgb(228, 12, 206);
+}
+
+.lixeira{
+    
+    width: 28%;
+}
+
+.descricao{
+    display: flex;
+    padding: 2%;
+    background-color: aliceblue;
+    margin-top: 5%;
+    margin-left: 16%;
+    font-size: 28px;
+    border-radius: 20px;
+    width: 70%;
+}
