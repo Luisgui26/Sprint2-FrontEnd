@@ -5,6 +5,7 @@
 
 
 body{
+    margin-top: 2%;
     font-family: 'Bitter', serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Nunito Sans', sans-serif; 
@@ -23,7 +24,7 @@ img{
 
 .nome{
     margin-left: 5%;
-    font-size: 42px;
+    font-size: 47px;
     font-weight: bold;
 }
 
@@ -49,8 +50,7 @@ img{
 }
 
 .lixeira{
-    
-    width: 28%;
+    width: 36%;
 }
 
 .descricao{
@@ -64,10 +64,18 @@ img{
     width: 70%;
 }
 
+footer{
+    width: 100%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+}
+
 /* Página cadastro */
 
 .container{
-
+    position: absolute;
     margin-top: 5%;
     margin-left: 22%;
     margin-right: 20%;
@@ -95,7 +103,7 @@ img{
 
 .login-header{
     margin-top: 12px;
-    margin-bottom: 10%;
+    margin-bottom: 8%;
     font-size: 18px;
 }
 
@@ -124,14 +132,12 @@ button{
     margin-left: 8%;
     font-size: 18px;
     border-radius: 30px;
-    padding: 7px;
+    padding: 7px 7px 4px 7px;
     background:  linear-gradient(to right ,#131086, #b621f3);
     color: white;
     border: none;
     width: 70%;
 }
-
-
 
 img{
     width: 100%;
