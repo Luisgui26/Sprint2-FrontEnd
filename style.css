@@ -51,6 +51,7 @@ img{
 
 .lixeira{
     width: 36%;
+    margin-left: 4%;
 }
 
 .descricao{
@@ -59,8 +60,9 @@ img{
     background-color: aliceblue;
     margin-top: 5%;
     margin-left: 16%;
+    padding-right: 6%;
     font-size: 28px;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 70%;
 }
 
