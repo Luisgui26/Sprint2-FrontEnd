@@ -30,16 +30,16 @@ img{
 .opcoes{
     background-color: aliceblue;
     margin-top: 3%;
-    margin-left: 2%;
+    margin-left: 5%;
     font-size: 35px;
     border-radius: 90px;
-    width: 95%;
+    width: 90%;
     text-align: center;
 }
 
 .menu{
     text-decoration: none;
-    margin-left: 4%;
+    margin: 3%;
     color: #7921f3;
 }
 
@@ -48,8 +48,9 @@ img{
     color: rgb(228, 12, 206);
 }
 
+
 .lixeira{
-    width: 28%;
+    width: 32%;
     margin-left: 4%;
 }
 
@@ -58,17 +59,16 @@ img{
     padding: 2%;
     background-color: aliceblue;
     margin-top: 5%;
-    margin-left: 1%;
-    padding-right: 6%;
+    margin-left: 6%;
+    padding-right: 6%;  
     font-size: 24px;
     border-radius: 10px;
-    width: 90%;
+    width: 80%;
 }
 
 footer{
     width: 100%;
     color: white;
-    position: absolute;
     text-align: center;
     bottom: 0;
 }
