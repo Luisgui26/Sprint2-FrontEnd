@@ -13,16 +13,12 @@ body{
 }
 
 header{
-    color: aliceblue;
-    
+    color: aliceblue;;  
 }
 
-img{
-    width: 10%;
-}
 
 .nome{
-    font-size: 47px;
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
 }
@@ -30,10 +26,10 @@ img{
 .opcoes{
     background-color: aliceblue;
     margin-top: 3%;
-    margin-left: 5%;
+    margin-left: 15%;
     font-size: 35px;
     border-radius: 90px;
-    width: 90%;
+    width: 70%;
     text-align: center;
 }
 
@@ -59,11 +55,15 @@ img{
     padding: 2%;
     background-color: aliceblue;
     margin-top: 5%;
-    margin-left: 6%;
-    padding-right: 6%;  
-    font-size: 24px;
+    margin-left: 10%;
+    font-size: 28px;
     border-radius: 10px;
-    width: 80%;
+    width: 78%;
+}
+
+.descricao p{
+    width:55%;
+    padding-right: 3%; 
 }
 
 footer{
@@ -137,7 +137,14 @@ button{
     background:  linear-gradient(to right ,#131086, #b621f3);
     color: white;
     border: none;
-    width: 70%;
+    width: 65%;
+}
+
+button:hover{
+    width: 69%;
+    background: linear-gradient(to right ,#302d7f, #bc57e3);
+    color: white;
+    transition: 0.4s;
 }
 
 img{
