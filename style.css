@@ -51,19 +51,19 @@ header{
 }
 
 .descricao{
-    display: flex;
+    display: block;
     padding: 2%;
     background-color: aliceblue;
     margin-top: 5%;
     margin-left: 10%;
     font-size: 28px;
     border-radius: 10px;
-    width: 78%;
+    width: 80%;
 }
 
 .descricao p{
-    width:55%;
-    padding-right: 3%; 
+    width:100%;
+     
 }
 
 footer{
@@ -141,7 +141,7 @@ button{
 }
 
 button:hover{
-    width: 69%;
+    width: 68%;
     background: linear-gradient(to right ,#302d7f, #bc57e3);
     color: white;
     transition: 0.4s;
@@ -151,3 +151,11 @@ img{
     width: 100%;
 }
 
+/*Página teste*/
+
+#pontos{
+    text-align: center;
+    color: aliceblue;
+    font-size: 35px;
+    margin-top: 3%;
+}
