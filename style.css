@@ -44,11 +44,13 @@ header{
     color: rgb(228, 12, 206);
 }
 
-
-.lixeira{
-    width: 32%;
-    margin-left: 4%;
+.titulo-home{
+    font-size: 25px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
 }
+
 
 .descricao{
     display: block;
@@ -56,13 +58,19 @@ header{
     background-color: aliceblue;
     margin-top: 5%;
     margin-left: 15%;
-    font-size: 30px;
+    font-size: 34px;
     border-radius: 10px;
     width: 66%;
+    margin-bottom: 10%;
 }
 
 .descricao p{
     width:100%;
+}
+
+
+.imagem{
+    width: 100%;
 }
 
 footer{
@@ -92,7 +100,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     padding-left: 25px;
-    background-color: rgb(232, 233, 234);
+    background-color: rgb(218, 220, 221);
 }
 
 .login-right{
@@ -140,8 +148,8 @@ button{
 }
 
 button:hover{
-    background: linear-gradient(to right ,#302d7f, #bc57e3);
-    color: white;
+    background: rgb(255, 255, 255);
+    color:#a30dee;
     cursor: pointer;
     transition: 0.4s;
 }
@@ -157,4 +165,38 @@ img{
     color: aliceblue;
     font-size: 40px;
     margin-top: 3%;
+    font-weight: bold;  
+}
+
+.premio{
+    background-color: aliceblue;
+    color: #7921f3;
+    width: 70%;
+    border-radius: 20px;
+    padding: 8px;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.premio:hover{
+    background: linear-gradient(to right ,#131086, #b621f3);
+    color: aliceblue;
+    transition: 0.4s;
+    border: 4px white;
+    cursor: pointer;
+}
+
+/*Página Progresso*/
+
+.texto-progresso{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 5%;
+}
+
+/* Página Sobre*/
+
+.texto-sobre{
+    margin-top: 4%;
 }

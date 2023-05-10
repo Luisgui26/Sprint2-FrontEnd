@@ -5,10 +5,11 @@ function cadastrar() {
     
     if (password === "" || email === "" || cpf === "") {
         alert("Por favor, preencha todos os campos.");
-        return false;
+        return false
     } 
     else if (password.length <= 6){
         alert("A senha deve conter mais de 6 caracteres")
+        return false
     }
     else {
         alert("Cadastro efetuado!")
